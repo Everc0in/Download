@@ -1,0 +1,11 @@
+framework module EvercoinAPI {
+  umbrella header "EvercoinAPI.h"
+
+  export *
+  module * { export * }
+}
+
+module EvercoinAPI.Swift {
+    header "EvercoinAPI-Swift.h"
+    requires objc
+}
